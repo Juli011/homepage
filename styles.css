@@ -131,6 +131,18 @@ body {
     border-color: var(--text-decoration-color);
 }
 
+.myself-info__picture {
+  
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid;
+    border-color: var(--text-decoration-color);
+    
+    
+    
+}
+
 .intro {
     display: flex;
     justify-content: start;
@@ -165,6 +177,12 @@ body {
 
 .skills__text {
     color: var(--secondary-text-color);
+    text-align: justify;
+}
+
+.myself__text {
+    color: var(--secondary-text-color);
+    margin-right: 20px;
     text-align: justify;
 }
 
